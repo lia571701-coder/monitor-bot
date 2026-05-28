@@ -1,0 +1,6 @@
+├── monitor.py                 # 主脚本（~110 行）
+├── requirements.txt           # curl_cffi + beautifulsoup4 + lxml
+├── cache.json                 # 去重缓存（初始为空）
+├── .github/workflows/
+│   └── monitor.yml            # 每 2 小时 + 手动触发
+└── README.md                  # 使用说明
